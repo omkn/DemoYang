@@ -68,7 +68,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         if (!wifiManager.isWifiEnabled()) {
             wifiManager.setWifiEnabled(true);//打开WIFI
-            Log.i(TAG, "onCreate: 打开WIFI  没办法");
+            Log.i(TAG, "onCreate: 打开WIFI");
         }
 
         IntentFilter intentFilter = new IntentFilter();
